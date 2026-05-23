@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "ai-silk-road-map",
+    "slug": "ai-silk-road-map",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ai-slik-road-map_icon.png",
+    "scheme": "aisilkroadmap",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyBTD5OJJzyl7VkERcD_J7iOt8MXllmYbDg"
+      }
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBTD5OJJzyl7VkERcD_J7iOt8MXllmYbDg"
+        }
+      },
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/ai-slik-road-map_icon.png",
+        "backgroundImage": "./assets/images/ai-slik-road-map_icon.png",
+        "monochromeImage": "./assets/images/ai-slik-road-map_icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.khannibal.aisilkroadmap"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/ai-slik-road-map_icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/ai-slik-road-map_icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7bfbbd73-b081-4290-aaef-70f11ebcf31a"
+      }
+    }
+  }
+}
